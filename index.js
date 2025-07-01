@@ -54,9 +54,13 @@
       `,
       choices: ['Begin Block 1'],
       on_finish: function () {
-        document.getElementById("progress-container").style.display = "flex";
-        updateProgress(1);
+        const progressBar = document.getElementById("progress-container");
+        if (progressBar) {
+          progressBar.style.display = "flex";
+          updateProgress(1);
+        }
       }
+
     };
 
     timeline.push(block1_intro);
@@ -75,8 +79,11 @@
       `,
       choices: ['Begin Block 2'],
       on_finish: function () {
-        document.getElementById("progress-container").style.display = "flex";
-        updateProgress(2);
+        const progressBar = document.getElementById("progress-container");
+        if (progressBar) {
+          progressBar.style.display = "flex";
+          updateProgress(2);
+        }
       }
     };
 
@@ -94,11 +101,13 @@
       `,
       choices: ['Begin Block 3'],
       on_finish: function () {
-        document.getElementById("progress-container").style.display = "flex";
-        updateProgress(3);
+        const progressBar = document.getElementById("progress-container");
+        if (progressBar) {
+          progressBar.style.display = "flex";
+          updateProgress(3);
+        }
       }
     };
-
     const block4_intro = {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
@@ -111,13 +120,16 @@
       `,
       choices: ['Begin Block 4'],
       on_finish: function () {
-        document.getElementById("progress-container").style.display = "flex";
-        updateProgress(4);
+        const progressBar = document.getElementById("progress-container");
+        if (progressBar) {
+          progressBar.style.display = "flex";
+          updateProgress(4);
+        }
       }
     };
 
-    //fetch trial data from static
-    fetch('static/items.json')
+    //fetch trial data
+    fetch('items.json')
       .then(response => response.json())
       .then(data => {
         const block1_data = jsPsych.randomization.shuffle(data);
@@ -125,7 +137,7 @@
         block1_data.forEach(trial => {
           timeline.push({
             type: jsPsychImageButtonResponse,
-            stimulus: 'static/images/' + trial.image,
+            stimulus: trial.image,
             stimulus_class: 'stimulus-image',
             prompt: `<p class="artificial-language">${trial.word}${trial.form === "marked" ? "ka" : ""}</p>`,
             choices: ['Next'],
@@ -166,7 +178,7 @@
                 <div style="display: flex; flex-direction: column; align-items: center;">
                   <div style="width: 35vw; height: 35vw; display: flex; align-items: center; justify-content: center;">
                     <img id="left-img"
-                        src="static/images/${left_image}"
+                        src="${left_image}"
                         style="max-width: 100%; max-height: 100%; object-fit: contain; cursor: pointer;">
                   </div>
                   <div id="left-feedback" style="font-size: 32px; height: 40px; margin-top: 10px;"></div>
@@ -176,7 +188,7 @@
                 <div style="display: flex; flex-direction: column; align-items: center;">
                   <div style="width: 35vw; height: 35vw; display: flex; align-items: center; justify-content: center;">
                     <img id="right-img"
-                        src="static/images/${right_image}"
+                        src="${right_image}"
                         style="max-width: 100%; max-height: 100%; object-fit: contain; cursor: pointer;">
                   </div>
                   <div id="right-feedback" style="font-size: 32px; height: 40px; margin-top: 10px;"></div>
@@ -298,7 +310,7 @@
               <div style="text-align: center;">
                 <!-- 图片区域 -->
                 <div style="width: 35vw; height: 35vw; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-                  <img src="static/images/${trial.correct_image}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                  <img src="${trial.correct_image}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                 </div>
 
                 <!-- 句子 + 反馈区域 -->
@@ -384,7 +396,7 @@
 
           timeline.push({
             type: jsPsychImageButtonResponse,
-            stimulus: 'static/images/' + trial.image,
+            stimulus: trial.image,
             stimulus_class: 'stimulus-image',
             choices: choices,
             data: {
