@@ -1,0 +1,218 @@
+[
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "sg",
+    "form": "bare",
+    "image": "piano/piano_sg1.jpg",
+    "sentence": "nya por soskubb ten nya otno tupoyu", 
+    "meaning":"A brown piano in a quiet room"
+  },
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "sg",
+    "form": "bare",
+    "image": "piano/piano_sg2.jpg",
+    "sentence": "ro fo nya tufas soskuhb",
+    "meaning": "This is a gold piano"
+  },
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "sg",
+    "form": "bare",
+    "image": "piano/piano_sg3.jpg",
+    "sentence": "Gin mag otung omorbasep gin soskuhb",
+    "meaning": "A kid is playing the piano"
+  },
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "pl",
+    "form": "bare",
+    "image": "piano/piano_pl1.jpg",
+    "sentence": "chya luap pe suskuhb ten gin tupoyu",
+    "meaning": "There are two piano in the room"
+  },
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "pl",
+    "form": "marked",
+    "image": "piano/piano_pl2.jpg",
+    "sentence": "Shou luap omorbasep pe soskuhb-ka",
+    "meaning": "They are playing two pianos"
+  },
+  {
+    "category": "piano",
+    "word": "soskuhb",
+    "number": "pl",
+    "form": "marked",
+    "image": "piano/piano_pl3.jpg",
+    "sentence": "Gin fpeb luap omorbasep Gin soskuhb-ka",
+    "meaning": "the women are playing the pianos"
+  },
+    {
+    "category": "egg",
+    "word": "tup",
+    "number": "sg",
+    "form": "bare",
+    "image": "egg/egg_sg1.jpg",
+    "sentence": "Ro fo nya tup mi gin lori",
+    "meaning": "This is an egg on the plate"
+  },
+  {
+    "category": "egg",
+    "word": "tup",
+    "number": "sg",
+    "form": "bare",
+    "image": "egg/egg_sg2.jpg",
+    "sentence": "Chya fo mi tup ten gin kopahu",
+    "meaning": "There is an egg in the bowl"
+  },
+  {
+    "category": "egg",
+    "word": "tup",
+    "number": "sg",
+    "form": "bare",
+    "image": "egg/egg_sg3.jpg",
+    "sentence": "Nya friedug tup nga shashki",
+    "meaning":"A fried egg with rice"
+  },
+  {
+    "category": "egg",
+    "word": "tup",
+    "number": "pl",
+    "form": "bare",
+    "image": "egg/egg_pl1.jpg",
+    "sentence": "Gin pelon fo ksaso tup",
+    "meaning":"The hen is incubating eggs"
+  },
+  {
+    "category": "egg",
+    "word": "tup",
+    "number": "pl",
+    "form": "marked",
+    "image": "egg/egg_pl2.jpg",
+    "sentence": "Gin tup-ka fo kokilk guro",
+    "meaning":"The eggs are neatly arranged"
+  },
+  {
+    "category": "egg",
+    "word": "tup",
+    "number": "pl",
+    "form": "marked",
+    "image": "egg/egg_pl3.jpg",
+    "sentence": "Chot tup-ka ten gin pune",
+    "meaning":"Ten eggs in the box"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "sg",
+    "form": "bare",
+    "image": "shark/shark_sg1.jpg",
+    "sentence": "Ro fo nya ildra snun",
+    "meaning":"This is a shark"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "sg",
+    "form": "bare",
+    "image": "shark/shark_sg2.jpg",
+    "sentence": "Nya ildra snun ga nya daa kste ezhye",
+    "meaning": "A shark among a school of fish"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "sg",
+    "form": "bare",
+    "image": "shark/shark_sg3.jpg",
+    "sentence": "Hijyo fo mresbasep nya ildra snun",
+    "meaning":"People are watching a shark"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "pl",
+    "form": "bare",
+    "image": "shark/shark_pl1.jpg",
+    "sentence": "Kob ildra snun luap mombasep kstu",
+    "meaning":"Three sharks are hunting together"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "pl",
+    "form": "marked",
+    "image": "shark/shark_pl2.jpg",
+    "sentence": "Gin Kibyi fo yagubasep nga gin ildra snun-ka",
+    "meaning":"The diver is staying with the sharks"
+  },
+  {
+    "category": "shark",
+    "word": "ildra snun",
+    "number": "pl",
+    "form": "marked",
+    "image": "shark/shark_pl3.jpg",
+    "sentence": "Chya luap pe ildra snun-ka",
+    "meaning":"There are two sharks"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "sg",
+    "form": "bare",
+    "image": "willow/willow_sg1.jpg",
+    "sentence": "Nya olps pabidge gin daydi",
+    "meaning":"A willow beside the river"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "sg",
+    "form": "bare",
+    "image": "willow/willow_sg2.jpg",
+    "sentence": "Ro fo nya ghav olps",
+    "meaning":"This is a huge willow tree"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "sg",
+    "form": "bare",
+    "image": "willow/willow_sg3.jpg",
+    "sentence": "Hijyo vdi nya ghav olps",
+    "meaning":"People under a huge willow tree"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "pl",
+    "form": "bare",
+    "image": "willow/willow_pl1.jpg",
+    "sentence": "Pe tufaste olps",
+    "meaning":"Two golden willow trees"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "pl",
+    "form": "marked",
+    "image": "willow/willow_pl2.jpg",
+    "sentence": "Olps-ka luap ksevme ten gin vdud",
+    "meaning":"Willow trees are reflected in the lake"
+  },
+  {
+    "category": "willow",
+    "word": "olps",
+    "number": "pl",
+    "form": "marked",
+    "image": "willow/willow_pl3.jpg",
+    "sentence": "Nya mdaj kste tse olps-ka",
+    "meaning":"A group of dense willow trees"
+  }
+]
